@@ -1,7 +1,7 @@
 import os
 import requests
 from dotenv import load_dotenv
-
+#test
 load_dotenv()
 
 api_key = os.getenv('RIOT_API_KEY')

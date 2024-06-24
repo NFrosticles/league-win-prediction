@@ -5,6 +5,7 @@ from discord.ext import commands
 from data.riot_api import get_puuid, get_current_game_info, get_champion_mastery, get_account_by_puuid
 from models.predict_model import preprocess_and_predict
 
+#test
 # Load environment variables from .env file
 load_dotenv()
 
