@@ -1,6 +1,6 @@
 import requests
 
-api_key = "RGAPI-dc12516e-2e96-41a7-8791-0a31abf49844"
+api_key = "" #Subject to change
 
 def get_puuid(game_name, tag_line):
     url = f"https://americas.api.riotgames.com/riot/account/v1/accounts/by-riot-id/{game_name}/{tag_line}?api_key={api_key}"
@@ -9,7 +9,7 @@ def get_puuid(game_name, tag_line):
     }
     try:
         response = requests.get(url, headers=headers)
-        response.raise_for_status()  # Raise an exception for HTTP errors
+        response.raise_for_status()
         data = response.json()
         puuid = data['puuid']
         return puuid
@@ -21,8 +21,8 @@ def get_puuid(game_name, tag_line):
         print(f"Other error occurred: {err}")
 
 # Example usage
-game_name = "Frosticles"   # Replace with your Riot Games game name
-tag_line = "6969"     # Replace with your Riot Games tag line
+game_name = ""   # Replace with your Riot Games game name
+tag_line = ""     # Replace with your Riot Games tag line
 champion_id = 157            # Example champion ID (Yasuo)
 
 # Get summoner's PUUID
@@ -38,7 +38,7 @@ def get_champion_mastery(puuid, champion_id):
     }
     try:
         response = requests.get(url, headers=headers)
-        response.raise_for_status()  # Raise an exception for HTTP errors
+        response.raise_for_status()
         return response.json()
     except requests.exceptions.HTTPError as http_err:
         print(f"HTTP error occurred: {http_err}")

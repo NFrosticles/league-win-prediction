@@ -1,0 +1,5 @@
+discord.py
+requests
+scikit-learn
+joblib
+python-dotenv
