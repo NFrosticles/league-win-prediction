@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de1d3bea-02e0-4ddb-b4b1-cd99c046459c" name="Changes" comment="Day 1">
+    <list default="true" id="de1d3bea-02e0-4ddb-b4b1-cd99c046459c" name="Changes" comment="Help&#10;TODO: Fix and update riot api end points">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/riot_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/riot_api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +51,7 @@
     "Python.train_model (1).executor": "Run",
     "Python.train_model.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Cherry-picking in master",
+    "git-widget-placeholder": "master",
     "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
@@ -224,7 +221,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718763855122</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Help&#10;TODO: Fix and update riot api end points">
+      <option name="closed" value="true" />
+      <created>1719276200946</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1719276200946</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -241,6 +246,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create Repo" />
     <MESSAGE value="Day 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 1" />
+    <MESSAGE value="Help&#10;TODO: Fix and update riot api end points" />
+    <option name="LAST_COMMIT_MESSAGE" value="Help&#10;TODO: Fix and update riot api end points" />
   </component>
 </project>
